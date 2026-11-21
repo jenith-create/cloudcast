@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudCast - Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>☁️ CloudCast</h1>
+            <p>Your personal weather dashboard</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <p id="message"></p>
+
+        <section class="current-weather">
+            <h2 id="cityName">Search for a city</h2>
+            <div class="current-icon" id="weatherIcon">🌤️</div>
+            <h1 id="temperature">--°C</h1>
+            <p id="description">Weather information will appear here</p>
+
+            <div class="weather-details">
+                <div class="detail">
+                    <span>Humidity</span>
+                    <strong id="humidity">--%</strong>
+                </div>
+                <div class="detail">
+                    <span>Wind Speed</span>
+                    <strong id="windSpeed">-- km/h</strong>
+                </div>
+                <div class="detail">
+                    <span>Feels Like</span>
+                    <strong id="feelsLike">--°C</strong>
+                </div>
+            </div>
+        </section>
+
+<section class="hourly-section">
+    <h2>Hourly Forecast</h2>
+    <div id="hourlyForecast" class="hourly-grid">
+        <p>Search for a city to see hourly weather.</p>
+    </div>
+</section>
+
+<section class="forecast-section">
+    <h2>7-Day Forecast</h2>
+    <div id="forecast" class="forecast-grid">
+        <p>Search for a city to see the forecast.</p>
+    </div>
+</section>
+
+        
+
+        <footer>
+            <p>Powered by Open-Meteo API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
