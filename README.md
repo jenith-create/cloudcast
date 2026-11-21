@@ -9,6 +9,9 @@ I built CloudCast as a hands-on project to explore how web applications communic
 What began as a simple city-based weather search gradually evolved into a dashboard that provides both a quick snapshot of current conditions and a broader view of the days ahead.
 
 ---
+## 🌐 Live Demo
+
+https://jenith-create.github.io/cloudcast/
 
 ## 🌤️ Features
 
